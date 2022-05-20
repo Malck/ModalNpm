@@ -8,7 +8,7 @@ This is a modal who can be used with react
 
 This is a modal that will display a message and a mark to inform the user that he completed something like a form 
 
-It will take the entire screen so the users are gonna to see and have to close it
+It will take the entire screen so the users are gonna see and have to close it
 
 ## How to use it
 
