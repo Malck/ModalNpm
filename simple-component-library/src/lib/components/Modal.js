@@ -2,17 +2,22 @@ import React from 'react';
 import "./Modal.css"
 
 function Modal({ message, onCloseModal }) {
-    return (
-      <>
-        <div className="modal"></div>
+  return (
+    <>
+
+      <div className="modal" onClick={onCloseModal}>
+
         <div className="modal_body">
           <p className="modal_message">{message}</p>
           <p className="modal_icon" onClick={onCloseModal}>
-             🗙
+            <i class="fa-solid fa-xmark"></i>
           </p>
         </div>
-      </>
-    );
+        
+      </div>
+
+    </>
+  );
 }
   
 export default Modal;

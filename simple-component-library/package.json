@@ -1,6 +1,6 @@
 {
   "name": "malck-modal-npm",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": ["dist"],
